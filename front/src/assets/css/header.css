@@ -1,0 +1,136 @@
+header{
+    background-color: #3A86FF;
+    padding: 10px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+h1{
+    margin: auto 0;
+}
+ul{
+    display: flex;
+    /* justify-content: start; */
+    list-style-type: none;
+}
+
+ul li{
+    margin: auto 5px;
+}
+
+li button{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0A2239;
+    transition: 500ms ease-in-out;
+}
+
+li button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.group-form input{
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.group-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.submit-connexion button{
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #0A2239;
+    color: #fff;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    border-radius: 5px;
+}
+
+.submit-connexion button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+/* .modalConnexion{
+    width: 100%;
+
+} */
+
+/* 
+
+
+
+ */
+
+
+/* body.active-modal {
+    overflow-y: hidden;
+} */
+
+/* .btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+} */
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    bottom: 280px;
+    right: 15px;
+    padding: 5px 7px;
+}
